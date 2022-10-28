@@ -13,7 +13,6 @@ body{
     height: 7vh;
     display: flex;
     justify-content: flex-end;
-    border: 1px solid red;
 }
 
 .btn{
@@ -39,10 +38,10 @@ button{
 
 
 .container-main{
-    border: 1px solid red;
     height: calc(84vh - 20px);
     width: 100vw;
     margin-bottom: 20px;
+    overflow: auto;
 }
 
 .row-main{
@@ -50,13 +49,11 @@ button{
     width: 90vw;
     height: calc(100% / 5 - 10px);
     margin: 10px auto;
-    border: 1px solid green;
 }
 
 .col-main{
     position: relative;
     display: flex;
-    border: 1px solid blue;
     width: calc(100% / 7 - 4px);
     margin: 0 2px;
 }
@@ -78,8 +75,66 @@ button{
 /* footer */
 
 .container-footer{
+    background-color: #222222;
+    display: flex;
+    align-items: center;
     width: 100vw;
     height: 9vh;
-    border: 1px solid white;
+}
+
+.row-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-footer{
+    
+    display: flex;
+}
+
+.content-footer .icons i, p, span{
+    color: white;
+}
+
+.icons, .fa{
+    margin: 0 5px;
+}
+
+.icons{
+    padding: 0 4px;
+}
+
+.content-footer > span{
+    margin: 10px 8px;
+}
+
+.content-footer-end{
+    padding: 24px 18px;
+    background-color: #4A4A4A;
+}
+
+/* utility footer */
+
+.font-color{
+    color: red;
+    font-size: 10px;
+}
+
+.margin-bottom{
+    margin-bottom: 10px;
+}
+
+.font-size{
+    font-size: 20px;
+}
+
+.font-size-sm{
+    font-size: 10px;
+}
+
+.margin-left{
+    margin-left: 15px;
 }
 
