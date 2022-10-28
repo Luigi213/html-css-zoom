@@ -38,4 +38,36 @@ button{
 /* main */
 
 
-.continer-main
+.container-main{
+    border: 1px solid red;
+    height: calc(86vh - 10px);
+    width: 100vw;
+    margin-bottom: 10px ;
+}
+
+.row-main{
+    display: flex;
+    width: 90vw;
+    height: calc(100% / 5 - 10px);
+    margin: 10px auto;
+    border: 1px solid green;
+}
+
+.col-main{
+    display: flex;
+    border: 1px solid blue;
+    width: calc(100% / 7 - 4px);
+    margin: 0 4px;
+}
+
+.col-main img{
+    width: 100%;
+}
+
+/* footer */
+
+.container-footer{
+    width: 100vw;
+    height: 7vh;
+    border: 1px solid white;
+}
